@@ -31,18 +31,18 @@ Optional tuning:
 From the repo root:
 
 ```
-python BrothersTrusts/CoinSniper/__init__.py
+python __init__.py
 ```
 
 Or provide handles directly:
 
 ```
-TWITTER_USERS=noe_ether,another_handle python BrothersTrusts/CoinSniper/__init__.py
+TWITTER_USERS=noe_ether,another_handle python __init__.py
 ```
 
 If you want to run just the Twitter or Telegram components for local testing:
 
 ```
-TWITTER_HANDLE=noe_ether python BrothersTrusts/CoinSniper/Twitter/__init__.py
-python BrothersTrusts/CoinSniper/Telegram/__init__.py
+TWITTER_HANDLE=noe_ether python Twitter/__init__.py
+python Telegram/__init__.py
 ```
